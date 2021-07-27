@@ -1,0 +1,88 @@
+.navbar{
+    padding: 3% 5vw;
+}
+div{
+    display: inline-block
+}
+.container-fluid{
+    padding: 0 5vw;
+}
+.phone-size-image{
+    display: none;
+}
+.logo{
+    width: 30vw;
+    height: 40vh;
+    float: right;
+}
+.title{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 5px;
+    word-spacing: 8px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+.phone-logo, .logo{
+    box-shadow: 5px 10px;
+}
+/* .welcome-txt{
+    font-family:;
+    font-size:;
+    font-weight:;
+} */
+.welcome-text{
+    width: 50vw;
+}
+.row{
+    width: unset;
+}
+.welcome-btns{
+    text-align: center;
+
+}
+/* #0d6efd */
+#about, footer{
+    background-color: #251f37;
+    color: white;
+    padding: 5% 0;
+}
+/* .welcome-btn{
+    margin: ;
+} */
+button{
+    display: inline-block;
+}
+/* phone size */
+@media(max-width: 420px){
+    .section-1{
+        min-height: 100vh;
+    }
+    .about-title{
+        text-align: center;
+    }
+    .title{
+        text-align: center;
+        text-decoration: underline;
+    }
+    .phone-size-image{
+        display: unset;
+    }
+    .big-screen-image{
+        display: none;
+    }
+    .welcome-jumbotron{
+        text-align: center;
+    }
+    .phone-logo{
+        margin: 10% 0;
+        width: 70vw;
+        height: 35vh;
+    }
+    .welcome-text{
+        width: 80vw;
+    }
+    .welcome-txt{
+        font-family:'Droid sans';
+    }
+
+}
